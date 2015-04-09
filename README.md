@@ -1,1 +1,1 @@
-# mobileManager
+Cloud code project for iFindWhat. Cloud Code Guide: https://cn.avoscloud.com/docs/cloud_code_guide.html
