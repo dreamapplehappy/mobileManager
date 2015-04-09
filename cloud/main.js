@@ -3,3 +3,6 @@
 AV.Cloud.define("hello", function(request, response) {
   response.success("Hello world!");
 });
+AV.Cloud.define("welcome", function(request, response) {
+  response.success("Welcome to here!");
+});
