@@ -17,6 +17,18 @@ app.get('/hello', function(req, res) {
 app.get('/', function(req, res) {
 	res.render('index', {title: 'mobile Manager!'});
 });
+app.get('/author', function(req, res) {
+	res.render('user/author', {title: 'author!'});
+});
+app.get('/view', function(req, res) {
+	res.render('user/view', {title: 'view!'});
+});
+app.get('/task', function(req, res) {
+	res.render('user/task', {title: 'task!'});
+});
+app.get('/login', function(req, res) {
+	res.render('user/login');
+});
 
 // 最后，必须有这行代码来使 express 响应 HTTP 请求
 app.listen();
